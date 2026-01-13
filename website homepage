@@ -1,12 +1,97 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-  <title>Lin Ding Portfolio Website</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Lin Ding Portfolio</title>
   <link rel="stylesheet" href="style.css">
+  <style>
+    body { font-family: Arial, sans-serif; margin: 40px; line-height: 1.6; }
+    h1, h2 { color: #2c3e50; }
+    nav { margin-bottom: 20px; }
+    nav a { margin-right: 15px; text-decoration: none; color: #2980b9; }
+    section { margin-bottom: 40px; }
+    .contact { font-size: 0.9em; color: #555; }
+  </style>
 </head>
 <body>
-  <h1>Welcome to My Portfolio</h1>
-  <p>Senior Product Manager | PhD Applicant | Research Interests: Ethical Artificial Intelligence • Machine Learning • AI Evaluation • AI Safety & Alignment • Responsible AI • Multi-Agent Systems 
-• Human-AI Interaction • Robust & Interpretability-Focused AI/ML • Data Science • Supply Chain Tech</p>
+
+  <!-- Header -->
+  <header>
+    <h1>Lin Ding</h1>
+    <p class="contact">New York, NY · lin.ding62@gmail.com</p>
+    <nav>
+      <a href="#research">Research Interests</a>
+      <a href="#education">Education</a>
+      <a href="#experience">Experience</a>
+      <a href="#projects">Projects</a>
+      <a href="#certifications">Certifications</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <!-- Research Interests -->
+  <section id="research">
+    <h2>Research Interests</h2>
+    <ul>
+      <li>Ethical Artificial Intelligence, Machine Learning</li>
+      <li>AI Evaluation, Safety & Alignment</li>
+      <li>Responsible AI, Multi-Agent Systems</li>
+      <li>Human-AI Interaction, Robust & Interpretable AI/ML</li>
+      <li>Data Science, Supply Chain Technology</li>
+    </ul>
+  </section>
+
+  <!-- Education -->
+  <section id="education">
+    <h2>Education</h2>
+    <ul>
+      <li><strong>MIT Professional Education</strong> – Applied AI & Data Science Program, 2025</li>
+      <li><strong>University of Texas at Dallas</strong> – M.S. in Supply Chain Management, 2013</li>
+      <li><strong>Beijing Institute of Technology</strong> – B.Econ. in International Business, 2010</li>
+    </ul>
+  </section>
+
+  <!-- Work Experience -->
+  <section id="experience">
+    <h2>Work Experience</h2>
+    <h3>Amazon – Senior Product Manager (2022–2025)</h3>
+    <p>Directed roadmap for AI-powered sourcing system, scaled from 0 to 10,000 users and 5,000+ suppliers, generating $15M+ annual value. Led AI/ML recommendation engines, autonomous workflows, and multimodal interfaces.</p>
+
+    <h3>UMA Education – Senior Manager of Procurement & FinOps (2015–2021)</h3>
+    <p>Streamlined source-to-pay systems and workflows, achieving $10M annual value. Built scalable procurement governance frameworks and ensured business continuity during COVID-19.</p>
+
+    <h3>Perimeter Global Logistics – Corporate Business Analyst (2013–2015)</h3>
+    <p>Conducted advanced analytics on operational and financial data, designed KPI reporting systems, and supported strategic decisions.</p>
+  </section>
+
+  <!-- Projects -->
+  <section id="projects">
+    <h2>Research & Projects</h2>
+    <h3>AEvolve Project (2025–Present)</h3>
+    <p>Independent research on multimodal, generative AI and agentic systems. Built multi-agent workflows, and evaluated AI systems integration capabilities and limits.</p>
+  </section>
+
+  <!-- Certifications -->
+  <section id="certifications">
+    <h2>Coursework & Certifications</h2>
+    <ul>
+      <li>AWS Machine Learning Engineer Associate (in progress)</li>
+      <li>AI Python – DeepLearning.AI</li>
+      <li>Multi AI Agent Systems – CrewAI</li>
+      <li>Building Multimodal Search & RAG – DeepLearning.AI</li>
+      <li>Project Management for Leaders – USF Corporate Training</li>
+      <li>Effective Negotiating – KARRASS</li>
+    </ul>
+  </section>
+
+  <!-- Contact -->
+  <section id="contact">
+    <h2>Contact</h2>
+    <p>Email: lin.ding62@gmail.com</p>
+    <p>LinkedIn: <a href="https://linkedin.com/in/yourprofile">linkedin.com/in/lindingms</a></p>
+    <p>GitHub: <a href="https://github.com/linding62">github.com/linding62</a></p>
+  </section>
+
 </body>
 </html>
